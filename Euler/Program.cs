@@ -10,7 +10,7 @@ namespace Euler
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Problem18.Solve());
+            Console.WriteLine(Problem21.Solve());
             Console.ReadLine();
         }
     }
