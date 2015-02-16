@@ -49,9 +49,9 @@ namespace Euler
                 int i = 0;
                 int j = 0;
                 bool Sum = false;
-                while (!Sum && ListAbundants[i] < k && i < ListAbundants.Count)
+                while (!Sum && i < ListAbundants.Count && ListAbundants[i] < k )
                 {
-                    while (!Sum && ListAbundants[j] < k && j < ListAbundants.Count)
+                    while (!Sum && j < ListAbundants.Count && ListAbundants[j] < k)
                     {
                         Sum = ListAbundants[i] + ListAbundants[j] == k;
                         j++;
