@@ -9,7 +9,7 @@ namespace Euler
     //Contains plenty of utility functions that can be reused by multiple functions.
     static class Utils
     {
-        //
+        //Returns the sum of the divisors of the number received
         public static int SumDivisors(int _Nb)
         {
             int Sum = 0;
