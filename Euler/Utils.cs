@@ -22,5 +22,19 @@ namespace Euler
             }
             return Sum;
         }
+
+        //Returns a list containing all the abundants number up to _Last
+        public static List<int> GetAbundants(int _Last)
+        {
+            List<int> ListAbundants = new List<int>();
+            for (int i = 1; i <= _Last; i++)
+            {
+                if (SumDivisors(i) < i)
+                {
+                    ListAbundants.Add(i);
+                }
+            }
+            return ListAbundants;
+        }
     }
 }
