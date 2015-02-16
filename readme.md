@@ -2,7 +2,7 @@
 By Steve Gagné
 
 ## Introduction ##
-This repository contains my personal solutions to Project Euler problems. Thus, these may not be the most efficient algorithm, but they usually provide the right answers. 
+This repository contains my personal solutions to [Project Euler](https://projecteuler.net) problems. Thus, these may not be the most efficient algorithm, but they usually provide the right answers. 
 
 ## Missing problems ##
 At a first glance, it is easy to notice that there are no solutions to problems 1 to 12. That is because the algorithms I wrote for those were not saved, back when I solved them. I might go back and solve them again, one day...
