@@ -23,7 +23,6 @@ namespace Euler
             int Somme = 0;
             foreach (int i in ListAmicables)
             { 
-                Console.WriteLine(Convert.ToString(i));
                 Somme += i; 
             }
             return Convert.ToString(Somme);
