@@ -11,7 +11,7 @@ At a first glance, it is easy to notice that there are no solutions to problems 
 Every file needed to get a solution running is included in the repository. To view a specific solution to a problem, start to the *program.cs* class and change the problem number on the following line:
 
 ```C#
-	 Console.WriteLine(Problem18.Solve());
+Console.WriteLine(Problem18.Solve());
 ```
 
 Every problem has a static, public function called Solve, which returns a string, that can easily get output in the console. 
