@@ -47,10 +47,10 @@ namespace Euler
             for (int k = 1; k <= _Last; k++)
             {
                 int i = 0;
-                int j = 0;
                 bool Sum = false;
                 while (!Sum && i < ListAbundants.Count && ListAbundants[i] < k )
                 {
+                    int j = i;
                     while (!Sum && j < ListAbundants.Count && ListAbundants[j] < k)
                     {
                         Sum = ListAbundants[i] + ListAbundants[j] == k;
