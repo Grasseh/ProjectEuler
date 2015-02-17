@@ -40,6 +40,8 @@ namespace Euler
             return ListAbundants;
         }
 
+        //Returns a list containing all numbers which are not the sum of any combination of two abundant numbers.
+        //Abundant numbers are defined in the GetAbudants function
         public static List<int> GetNotSumAbundants(List<int> ListAbundants,int _Last)
         {
             List<int> ListNotSum = new List<int>();
