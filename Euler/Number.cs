@@ -59,6 +59,31 @@ namespace Euler
             }
         }
 
+        public void Add(Number _Number)
+        {
+            //V2.0
+            //Features:
+            //-Basic Add
+            //-ClassMixing Add
+            int Leftover = 0;
+            int biggerLength = this.getLength();
+            if (_Number.getLength() > biggerLength)
+                biggerLength = _Number.getLength();
+            
+            int j = 0;
+            while ((j < biggerLength) || (Leftover != 0))
+            {
+                if (j >= ListeNb.Count) //Only a Leftover
+                    ListeNb.Add(0);
+                int Sum = ListeNb[j] + Leftover;
+                if (_Number.getLength() > j)
+                    Sum += _Number.ListeNb[j];
+                Leftover = Sum / 10;
+                ListeNb[j] = (Byte)(Sum - Leftover * 10);
+                j++;
+            }
+        }
+
         public void Multiply(int _Nb)
         {
             //V1.1
