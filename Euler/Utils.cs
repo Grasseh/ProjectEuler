@@ -68,6 +68,12 @@ namespace Euler
             return ListNotSum;
         }
 
+        //Returns if the received number is a prime
+        public static bool isPrime(int _Nb)
+        {
+            return SumDivisors(_Nb) == 1;
+        }
+
 
     }
 }
