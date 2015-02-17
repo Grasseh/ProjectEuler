@@ -75,6 +75,11 @@ namespace Euler
             }
         }
 
+        public int getLength()
+        {
+            return ListeNb.Count;
+        }
+
     }
 
 
