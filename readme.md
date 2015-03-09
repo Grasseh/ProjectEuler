@@ -16,5 +16,8 @@ Console.WriteLine(Problem18.Solve());
 
 Every problem has a static, public function called Solve, which returns a string, that can easily get output in the console. 
 
+## Objective ##
+The point of this repository is to show my solutions to each problem. This way, people can compare theirs and see how they, or I can improve each solution. It is suggested not to use these to solve the problems first, as it ruins the fun of finding the solutions
+
 
 
