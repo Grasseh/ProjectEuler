@@ -74,6 +74,43 @@ namespace Euler
             return SumDivisors(_Nb) == 1;
         }
 
+        //Returns the factorial of the number received 
+        public static Number factorial(int _Nb)
+        {
+            
+            if(_Nb <= 0)
+            {
+                return new Number("0");
+            }
+            else
+            {
+                Number Result = new Number("1");
+                for (int i = 2; i <= _Nb; i++)
+                {
+                    Result.Multiply(i);
+                }
+                return Result;
+            }
+        }
+
+        //Returns the factorial of the number received, MAX 12
+        public static int factorial(int _Nb)
+        {
+
+            if (_Nb <= 0 || _Nb >= 13)
+            {
+                return 0;
+            }
+            else
+            {
+                int Result = 1;
+                for (int i = 2; i <= _Nb; i++)
+                {
+                    Result *= i;
+                }
+                return Result;
+            }
+        }
 
     }
 }
