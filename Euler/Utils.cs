@@ -75,7 +75,7 @@ namespace Euler
         }
 
         //Returns the factorial of the number received 
-        public static Number factorial(int _Nb)
+        public static Number factorial(int _Nb,Number _Number)
         {
             
             if(_Nb <= 0)
