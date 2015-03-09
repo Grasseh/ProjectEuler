@@ -13,7 +13,7 @@ namespace Euler
         {
             Stopwatch sw = new Stopwatch();
             sw.Start();
-            Console.WriteLine(Problem30.Solve());
+            Console.WriteLine(Problem34.Solve());
             sw.Stop();
             Console.WriteLine("Problem solved in : " + sw.ElapsedMilliseconds + " milliseconds.");
             Console.ReadLine();
